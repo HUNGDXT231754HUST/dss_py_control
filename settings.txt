@@ -1,5 +1,0 @@
-OPENDSS_LINK = r"C:\Users\Admin\OneDrive\Desktop\31082026\IEEE13-OpenDSSG\Master.dss"
-ALGO_LINK = r"algorithm.py"
-STEPSIZE = "1h"
-NUMBERS = 24
-VIEW_TIMEPERSTEP = 1
