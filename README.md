@@ -2,7 +2,8 @@
 Tập hợp các mã lệnh phục vụ thực hiện điều khiển lưới trong OpenDSS bằng Python
 
 Quy trình thao tác:
-Bước 1: Thay đổi cài đặt thông số mô phỏng trong file settings với các thông số như sau:
+
+Bước 1: Thay đổi cài đặt thông số mô phỏng trong file settings.txt với các thông số như sau:
 
 OPENDSS_LINK= r"đường_dẫn_tới_folder_lưới_mô_phỏng" # chú ý có "" và r
 ALGO_LINK = r"đường_dẫn_tới_thuật_toán" # chú ý có "" và r
@@ -10,6 +11,7 @@ STEPSIZE = "thời_gian" #Thời gian ở đây gồm giá trị + đơn vị (h
 NUMBERS = số bước mô phỏng # Giá trị là số thực
 VIEW_TIMEPERSTEP = giá trị thời gian mỗi lần mô phỏng "đơn vị là giây
 
+Bước 2: Thực hiện chạy file main.py
 
 Về yêu cầu file thuật toán; Phải đảm bảo thuật toán trả về kết quả dữ liệu có các định dạng như sau
 
